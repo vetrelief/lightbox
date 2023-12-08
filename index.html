@@ -8,12 +8,10 @@
 </head>
 <body>
 
-<!-- Your webpage content goes here -->
 <h1>Welcome to Your Website</h1>
 <p>This is some sample content for your webpage. Click the button below to open the lightbox.</p>
 <button onclick="openLightbox()">Open Lightbox</button>
 
-<!-- Lightbox HTML -->
 <div class="lightbox" id="myModal">
     <div class="lightbox-content">
         <span class="close" onclick="closeLightbox()">&times;</span>
@@ -28,7 +26,6 @@
 </div>
 
 <script>
-    // JavaScript to handle lightbox functionality
     function openLightbox() {
         document.getElementById('myModal').style.display = 'block';
     }
@@ -37,7 +34,6 @@
         document.getElementById('myModal').style.display = 'none';
     }
 
-    // Close lightbox if clicked outside of content
     window.onclick = function (event) {
         var modal = document.getElementById('myModal');
         if (event.target === modal) {
