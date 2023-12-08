@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,15 +7,20 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+<!-- Your webpage content goes here -->
+<h1>Welcome to Your Website</h1>
+<p>This is some sample content for your webpage. Click the button below to open the lightbox.</p>
+<button onclick="openLightbox()">Open Lightbox</button>
+
+<!-- Lightbox HTML -->
 <div class="lightbox" id="myModal">
     <div class="lightbox-content">
         <span class="close" onclick="closeLightbox()">&times;</span>
         <h2>Your Lightbox Title</h2>
-        <p>Your lightbox content goes here.</p>
-        <!-- Add an image if needed -->
-        <!-- <img src="your-image.jpg" alt="Your Image"> -->
+        <p>This is your lightbox content. Replace it with your own text and images.</p>
         <div class="buttons">
-            <a href="#" class="not-for-now">Not For Now</a>
+            <a href="#" class="not-for-now" onclick="closeLightbox()">Not For Now</a>
             <a href="#" class="abstract-button">Abstract Button</a>
             <a href="#" class="nice-button">Nice Button</a>
         </div>
@@ -44,4 +48,3 @@
 
 </body>
 </html>
-
