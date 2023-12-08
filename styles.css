@@ -1,4 +1,4 @@
-
+/* styles.css */
 body {
     /* Your webpage styles */
 }
@@ -14,7 +14,7 @@ body {
 }
 
 .lightbox-content {
-    background-color: #fff; /* Lightbox background color */
+    background-color: #f0f7f4; /* Lightbox background color - Soft Green */
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Lightbox shadow */
     padding: 20px;
@@ -25,11 +25,19 @@ body {
 }
 
 .close {
-    color: #aaa;
+    color: #555;
     float: right;
     font-size: 28px;
     font-weight: bold;
     cursor: pointer;
+}
+
+h2 {
+    color: #2980b9; /* Blue */
+}
+
+p {
+    color: #555;
 }
 
 .buttons {
@@ -37,13 +45,28 @@ body {
 }
 
 .not-for-now {
-    /* Styles for "Not For Now" button */
+    color: #888;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #888;
+    border-radius: 5px;
 }
 
 .abstract-button {
-    /* Styles for abstract button */
+    color: #fff;
+    background-color: #3498db; /* Blue */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .nice-button {
-    /* Styles for nice button */
+    color: #fff;
+    background-color: #f39c12; /* Soft Yellow */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
